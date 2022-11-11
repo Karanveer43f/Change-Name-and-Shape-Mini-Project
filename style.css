@@ -1,0 +1,38 @@
+#outerCircle {
+    height: 300px;
+    width: 300px;
+    background-color: cyan;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #square {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+  }
+  #triangle {
+      /* display: none; */
+      width: 0; 
+      height: 0; 
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 100px solid white;
+      margin: 2rem;
+  }
+  #circle {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  #rhombus {
+    height: 150px;
+    width: 150px;
+    /* transform: rotate(45deg); */
+    border-radius: 30%;
+    background-color: white;
+  }
+  
